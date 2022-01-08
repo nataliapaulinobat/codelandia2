@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  max-width: 100%;
+  background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+}
