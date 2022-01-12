@@ -10,18 +10,39 @@ body {
   font-size: 100%;
   background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
 }
-.cabecalho {
+.cabecalho-bg {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
 }
+.logoimg{
+ display: flex;
+ justify-content: space-between;
+ align-content: center;
+ gap: 20px;
+}
+.cabecalho-imagem{
+  position: absolute;
+  width: 100px;
+  height: 48.11px;
+  left: 120px;
+  top: 41px;
+  
+}
 .cabecalho-menu {
   display: flex;
   justify-content: space-between;
   align-content: center;
   gap: 20px;
+
+}
+.cabecalho-menu-item{
+  width: 24px;
+  height: 60px;
+  left: 12px;
+  top: 41px;
 }
 .conteudo-principal {
   display: flex;
@@ -29,6 +50,7 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
 
 .conteudo-principal-escrito {
   display: flex;
@@ -59,6 +81,13 @@ line-height: 30px;
   font-weight: 180;
   font-size: 16px;
   color: #f9f9f9;
+}
+
+.botao-img{
+  display: flex;
+  position: relative;
+  height: 60px;
+  left: 10px;
 }
 .conteudo-secundario{
   display: inline-flex;
