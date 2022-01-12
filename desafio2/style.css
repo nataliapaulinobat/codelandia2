@@ -1,10 +1,13 @@
 *{
-    margin: 0px;
-    padding: 0px;
-  
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;
+    text-decoration: none;
 }
 
-body{
-     background: url("./img/spider-man-miles-morales-4k-2020-ix-1920x1080\ 1.png")no-repeat;
-     background-size: cover;
+header{
+    background-color: #f7c7b9;
+    height:400px ;
 }
