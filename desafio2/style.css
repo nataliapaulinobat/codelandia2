@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F7C7B9;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.inicio-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+.logo{
+    text-decoration: none;
+    color:#161212 ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-left: 50px;
+}
+
+.logo::before{
+    content: '';
+    background-image: url("./img/Papai\ noel.svg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 140px; 
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: var(--black-light);
+}
