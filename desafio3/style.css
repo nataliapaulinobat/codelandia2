@@ -3,18 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none !important;
+    text-decoration: none;
 }
-
-/*Header e section*/
-header{
-    background: #F7C7B9;
+/*container*/
+.container {
+    max-width: 1140px;
+    margin: auto;
 }
-section{
-    background: #F7C7B9;
-}
-/*Header navbar*/
-.container{
-    display:flex;
-    
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
