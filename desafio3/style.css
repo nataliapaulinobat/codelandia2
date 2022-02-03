@@ -2,28 +2,26 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+    text-decoration:none;
+    list-style: none;
 }
 body{
-    background:#F7C7B9;
+    max-width: 1440px;
 }
-/*container*/
-.container {
-    max-width: 1140px;
-    margin: auto;
-}
-.container-menu {
+/*menu*/
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    background:#FFFFFF;
 }
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 10vh;
-    
+.logo_titulo{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    left: 165px;
+    top: 20px;
+    color: #293145;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
